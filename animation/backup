@@ -30,18 +30,18 @@
         </div>
     </div>
     <!-----FORSIDE---->
-    <section id="about2">
-        <div class="text_sprite2"> <img src="about/me.png" alt="mig"> </div>
-        <div class="text_sprite1">
+    <section id="about">
+        <div class="sectionwrapper">
+            <div class="column"> <img src="about/mflogo.png" alt="logo"> </div>
+            <hr> </div>
+        <div class="text_sprite">
+            <p><b>Velkommen til min Portfolio!
+                    <br>Jeg hedder Mette og jeg er 22 år gammel.
+                    <br> Hvis du vil vide mere om mig, så læs videre! </b></p>
             <h3>Kontakoplysninger</h3>
-            <p>E-mail:
-                <br>Mettefrilander@msn.com</p>
-            <p>Hjemmeside:
-                <br> Frilander.dk</p>
-            <p>linkedin:
-                <br> Mette Frilander</p>
-        </div>
-        <div class="text_sprite2">
+            <p>E-mail: Mettefrilander@msn.com</p>
+            <p>Hjemmeside: Frilander.dk</p>
+            <p>linkedin: Mette Frilander</p>
             <h3>Uddannelse</h3>
             <p>2011 - 2012 : HUC 10 klassesskole</p>
             <p>2012 - 2015 : Federiksborg Gymnasie og HF</p>
@@ -51,9 +51,8 @@
             <p>2012 – 2014: Lukkeansvarlig - Skovgrillen</p>
             <p>2015 – 2016: Lukkeansvarlig - VIP bageren</p>
             <p>2016 – 2017: Caféansvarlig – Carlsberg Group</p>
-        </div>
-        <div class="text_sprite1">
-            <h3>Tekniske kompetencer:</h3>
+            <h3>Tekniske kompetencer:
+</h3>
             <p>HTML og CSS </p>
             <p>JavaScript og jQuery </p>
             <p>Adobe Photoshop </p>
