@@ -21,7 +21,7 @@ h3 {
 
 h2 {
     font-family: 'Merriweather Sans', sans-serif;
-    font-weight: 8%;
+    font-weight: 8vw;
     font-size: 2em;
     letter-spacing: 0.2vw;
 }
@@ -29,15 +29,53 @@ h2 {
 
 /*---------------BAGGRUND------------------*/
 
+#start {
+    font-family: 'Merriweather Sans', sans-serif;
+    display: inline-block;
+    padding: 1vw 8vw;
+    font-size: 20px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #373737;
+    background-color: white;
+    border: none;
+    border-radius: 15px;
+    -moz-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow: 3px 3px 30px rgba(0, 0, 0, .5);
+    font-weight: 500;
+}
+
+#start:hover {
+    background-color: white;
+    transform: scale(1.1);
+}
+
+#start:active {
+    background-color: #373737;
+    box-shadow: 0 5px #373737;
+    transform: translateY(1px);
+}
+
+#start_container {
+    width: 50%;
+    height: auto;
+    left: 33%;
+    top: 65%;
+    position: absolute;
+    z-index: 10;
+}
+
 
 /**********Splash*******************/
 
 #splash {
-    background-image: url(image/mobil_portait.jpg);
+    background-image: url(image/mobil-portait.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    height: 167vw;
+    height: auto;
 }
 
 
@@ -46,7 +84,8 @@ h2 {
 @media screen and (min-width: 376px) and (max-width: 627px) and (orientation:landscape) {
     body {}
     #splash {
-        background-image: url(image/mobil_landcape.jpg) height: 60vw;
+        background-image: url(image/mobil_landcape.jpg);
+        height: 59vw;
     }
 }
 
@@ -107,7 +146,7 @@ screen and (min-resolution: 192dpi) and (min-width: 1025px) {
 
 /*------------------  menu  --------------*/
 
-#menu {
+.menu {
     background-color: #ffffff;
     z-index: 99999;
     border-bottom-color: darkgrey;
@@ -119,6 +158,7 @@ screen and (min-resolution: 192dpi) and (min-width: 1025px) {
     -webkit-box-shadow: 3px 3px 30px rgba(0, 0, 0, .5);
 }
 
+li a,
 .dropbtn {
     color: black;
     padding: 16px;
@@ -126,19 +166,20 @@ screen and (min-resolution: 192dpi) and (min-width: 1025px) {
     border: none;
     cursor: pointer;
     font-family: 'Merriweather Sans', sans-serif;
-    font-weight: 70;
+    font-weight: 70px;
+    text-decoration: none;
 }
 
 .dropdown-content a:hover,
 .dropdown-content a:focus {}
 
-.dropdown {
+li.dropdown {
     position: relative;
     display: inline-block;
     color: white;
 }
 
-.dropdown {
+li.dropdown {
     opacity: 0.5;
     filter: alpha(opacity=50);
 }
@@ -187,26 +228,26 @@ screen and (min-resolution: 192dpi) and (min-width: 1025px) {
     width: 40%;
     flex-basis: 300px;
     justify-content: center;
-    border-style: solid;
-    border-color: #373737;
     margin: 0 auto;
     margin-bottom: 10px;
     margin-top: 10px;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    -moz-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow: 3px 3px 30px rgba(0, 0, 0, .5);
 }
 
 #about2 .text_sprite2 {
     width: 40%;
     flex-basis: 300px;
     justify-content: center;
-    border-style: solid;
-    border-color: #373737;
     margin: 0 auto;
     margin-bottom: 10px;
     margin-top: 10px;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    -moz-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow: 3px 3px 30px rgba(0, 0, 0, .5);
 }
 
 #about2 .text_sprite2 img {
@@ -217,6 +258,28 @@ screen and (min-resolution: 192dpi) and (min-width: 1025px) {
 
 
 /*************PORTFOILIO*******/
+
+
+/*************VÆRKTØJ*******/
+
+#vaerktoj P {
+    margin-left: 150px;
+}
+
+#vaerktoj .column1 img {
+    width: 40%;
+    height: 100%;
+    margin-left: 150px;
+}
+
+.sectionwrapper {
+    width: 60%;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    margin-right: 150px;
+    margin-left: 150px;
+    text-align: left;
+}
 
 
 /*************ARTANDCRAFT*******/
@@ -264,45 +327,12 @@ div.style a {
 
 /*************ARTANDCRAFT2*******/
 
-#splash img {
-    width: 100%;
-    height: 18vw;
-    -moz-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
-    -webkit-box-shadow: 3px 3px 30px rgba(0, 0, 0, .5);
-}
-
-#splash {
-    padding-bottom: 50px;
-}
-
-#vaerktoj P {
-    margin-left: 150px;
-}
-
-#vaerktoj .column1 img {
-    width: 40%;
-    height: 100%;
-    margin-left: 150px;
-}
-
 #om img {
     width: 90%;
     margin: auto;
     height: auto;
     -moz-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
     -webkit-box-shadow: 3px 3px 30px rgba(0, 0, 0, .5);
-}
-
-#om .column {
-    padding-bottom: 50px;
-    padding-top: 50px;
-    margin-left: 150px;
-    text-align: left;
-    margin-right: 150px;
-}
-
-#om {
-    text-align: center;
 }
 
 
@@ -312,16 +342,6 @@ div.style a {
     width: 70%;
     -moz-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
     -webkit-box-shadow: 3px 3px 30px rgba(0, 0, 0, .5);
-}
-
-#stiletyle .sectionwrapper {
-    flex-basis: 400px;
-    flex-grow: 1;
-    padding-bottom: 50px;
-    padding-top: 50px;
-    margin-right: 150px;
-    margin-left: 150px;
-    text-align: left;
 }
 
 #stiletyle {
@@ -402,6 +422,7 @@ div.style a {
 
 #om2 .column {
     padding-bottom: 50px;
+    width: 60%;
     padding-top: 50px;
     margin-left: 150px;
     text-align: left;
@@ -480,8 +501,10 @@ div.style a {
 
 #om4 P {
     text-align: left;
-    margin-left: 200px;
-    margin-right: 200px;
+    width: 60%;
+    margin: auto;
+    margin-top: 12px;
+    padding-bottom: 50px;
 }
 
 #om4 img {
@@ -492,29 +515,12 @@ div.style a {
     text-align: center;
 }
 
-#vaerktoj4 P {
-    text-align: left;
-    margin-left: 200px;
-    margin-right: 200px;
-}
-
-#vaerktoj4 img {
-    width: 40%;
-    height: 100%;
-    margin-left: 200px;
-    margin-right: 200px;
-}
-
-#vaerktoj4 {
-    text-align: left;
-}
-
 #tekst4 .column {
     text-align: left;
-    margin-left: 200px;
-    margin-top: 50px;
+    width: 60%;
+    margin: auto;
+    margin-top: 12px;
     padding-bottom: 50px;
-    margin-right: 200px;
 }
 
 
@@ -552,16 +558,6 @@ div.style a {
     width: 60%;
     -moz-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
     -webkit-box-shadow: 3px 3px 30px rgba(0, 0, 0, .5);
-}
-
-#falster1 .sectionwrapper {
-    flex-basis: 400px;
-    flex-grow: 1;
-    padding-bottom: 50px;
-    padding-top: 50px;
-    margin-right: 150px;
-    margin-left: 150px;
-    text-align: left;
 }
 
 #falster1 {
@@ -615,35 +611,8 @@ div.style a {
 
 /*************ANIMATION2*******/
 
-#vaerktoj6 img {
-    width: 50%;
-    height: 100%;
-}
-
-#vaerktoj6 {
-    margin-left: 50px;
-}
-
-#opgave6 img {
-    width: 50%;
-    -moz-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
-    -webkit-box-shadow: 3px 3px 30px rgba(0, 0, 0, .5);
-}
-
-#opgave6 {
-    margin-left: 50px;
-    padding-bottom: 40px;
-    padding-top: 40px;
-}
-
-#sprite {
-    margin-left: 50px;
-    padding-bottom: 40px;
-    padding-top: 40px;
-}
-
-#sprite img {
-    width: 100%;
+#opgaveseks img {
+    width: 70%;
     -moz-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
     -webkit-box-shadow: 3px 3px 30px rgba(0, 0, 0, .5);
 }
@@ -681,10 +650,10 @@ div.style a {
 
 #finn P {
     text-align: left;
-    margin-left: 200px;
-    margin-right: 200px;
-    padding-bottom: 20px;
-    padding-top: 20px;
+    width: 50%;
+    margin: auto;
+    margin-top: 12px;
+    padding-bottom: 50px;
 }
 
 #finn img {
@@ -698,19 +667,6 @@ div.style a {
 
 #finn {
     text-align: center;
-}
-
-#vaerktoj5 P {
-    margin-left: 200px;
-    margin-right: 200px;
-}
-
-#vaerktoj5 img {
-    width: 50%;
-    height: 100%;
-    margin-left: 200px;
-    margin-right: 200px;
-    margin-bottom: 60px;
 }
 
 
@@ -744,60 +700,8 @@ div.style a {
 
 /*************KEAN2*******/
 
-#vaerktoj7 img {
-    width: 50%;
-    height: 100%;
-}
-
-#vaerktoj7 {
-    margin-left: 50px;
-    margin-bottom: 50px;
-}
-
-#opgave6 img {
-    width: 50%;
-    -moz-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
-    -webkit-box-shadow: 3px 3px 30px rgba(0, 0, 0, .5);
-}
-
-#opgave7 img {
-    width: 50%;
-    -moz-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
-    -webkit-box-shadow: 3px 3px 30px rgba(0, 0, 0, .5);
-}
-
-#opgave7 p {
-    text-align-last: left;
-    margin-left: 50px;
-    margin-right: 50px;
-    margin-top: 40px;
-}
-
-#opgave7 h3 {
-    text-align-last: center;
-    margin-left: 50px;
-    margin-right: 50px;
-}
-
-#proto p {
-    text-align-last: left;
-    margin-left: 50px;
-    margin-right: 50px;
-    margin-top: 40px;
-}
-
-#proto h3 {
-    text-align-last: center;
-    margin-left: 50px;
-    margin-right: 50px;
-}
-
-#opgave7 .billede {
-    text-align: center;
-}
-
 #proto img {
-    width: 30vw;
+    width: 40%;
     margin-top: 20px;
     margin-bottom: 20px;
     -moz-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
@@ -805,11 +709,11 @@ div.style a {
 }
 
 #proto .billede {
-    text-align: center;
+    margin-left: 150px;
 }
 
 #final7 img {
-    width: 40vw;
+    width: 30vw;
     height: auto;
     margin-top: 20px;
     -moz-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
@@ -850,6 +754,12 @@ div.style a {
     position: relative;
 }
 
+#opgave7 img {
+    width: 70%;
+    -moz-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow: 3px 3px 30px rgba(0, 0, 0, .5);
+}
+
 
 /******FOOTER*******/
 
@@ -861,9 +771,25 @@ footer {
     text-align: center;
     position: relative;
     cursor: pointer;
-    margin-top: 60px;
+    margin-top: 15px;
 }
 
 footer img {
     width: 40%;
+}
+
+.footer .dropdown {
+    position: relative;
+    display: inline-block;
+    color: white;
+}
+
+.footer .dropdown {
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+}
+
+.footer .dropdown:hover {
+    opacity: 1.0;
+    filter: alpha(opacity=100);
 }
