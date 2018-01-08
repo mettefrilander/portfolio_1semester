@@ -26,12 +26,14 @@
     </div>
     <!--forside-->
     <div id="vaerktoj">
-        <p>Her har jeg brugt følgende værktøjer</p>
+        <div class="column_content">
+            <p>Her har jeg brugt følgende værktøjer</p>
+        </div>
         <div class="column1"> <img src="fedefinn/Asset-11-1024x191.png" alt="hjem"> </div>
     </div>
-    <div id="finn">
-        <div class="column_content">
-            <div class="billede"> <img src="fedefinn/1.png" alt="moodboard"></div>
+    <section id="moodboard">
+        <div class="billede"> <img src="fedefinn/1.png" alt="moodboard"></div>
+        <div class="sectionwrapper">
             <p>I dette tema skulle vi have om animation. Vi skulle lære en masse i illustrator samt lære javaScript at kende. Det første vi skulle finde ud af, var hvad vores historie skulle handle om, og hvem der skulle være med i den. Vores eneste krav var at historien skulle forgå udenfor.
                 <br>Min animation skulle handle om en mand ved navn Finn, som var på stranden. En gammel dame skulle hjælpe ham med at påfører solcreme, inden han bliver skoldet.
                 <br>
@@ -39,51 +41,67 @@
            </b></p>
             <p><b>Klik</b> <a href="fedefinn/02_01_01_Idegrundlag_mettefrilander.pdf">Her</a></p>
         </div>
-        <div class="column_content">
-            <div class="billede"> <img src="fedefinn/spritesheetfinaldone.svg" alt="finn"></div>
+    </section>
+    <section id="finn">
+        <div class="billede"> <img src="fedefinn/spritesheetfinaldone.svg" alt="finn"></div>
+        <div class="sectionwrapper">
             <p>I næste opgave skulle vi udforme vores karakterer. Vi skulle skitsere dem og rentegne dem i Adobe Illustrator. Vi skulle minimum have 2 karakterer, og max 5. For at rentegne i Adobe Illustrator skulle vi bruge Pen Tool, vores former skulle være lukkede og der må ikke være nogle ydre konturstreger. Karaktererne skulle eksporteres som SVG-filer.
                 <br> Vi skulle derudover også lave en karakterbeskrivelse, inden vi gik i gang med at tegne, det var denne beskrivelse vi skulle tage udgangspunkt i.
                 <br><b>For at se karakterdesign, skitser og rentegning</b> </p>
             <p><b>Klik</b> <a href="fedefinn/02.01.02_Karakterdesign_mettefrilander.pdf%20.pdf">Her</a></p>
         </div>
-        <div class="column_content">
-            <div class="billede"> <img src="fedefinn/3.png" alt="styletile"></div>
+    </section>
+    <section id="finnstyletile">
+        <div class="billede"> <img src="fedefinn/3.png" alt="styletile"></div>
+        <div class="sectionwrapper">
             <p>I denne opgave skulle vi vise hvilken farver, former og typografi vil ville bruge, gennem et styletile. Vi skulle lave en skitse af vores baggrund, samt en rentegning af vores baggrund. Derudover skulle vi vise hvilken ekstra grafik vi ville bruge.
                 <br><b>For at se Styletile og rentegning af grafik</b> </p>
             <p><b>Klik</b> <a href="fedefinn/02.01.03_Rentegnet%20grafik_mettefrilander.pdf%20%20%20.pdf">Her</a></p>
         </div>
-        <div class="column_content">
+    </section>
+    <section id="finntekst">
+        <div class="sectionwrapper">
             <p>Nu skulle vi aflevere den første udgave af vores scene, med baggrund, mellemgrund og forgrund. Der skulle ikke være nogen historie endnu, blot en præsentation af scenen med figurerne. Her havde vi endnu ikke lært Javascript.
                 <br><b>Se første udgave af websitet her:</b></p>
+        </div>
+        <div class="billede">
             <a href="http://frilander.dk/kea/animation/index/"> <img src="fedefinn/sitenr1.png" alt="website"> </a>
         </div>
-        <div class="column_content">
+        <div class="column">
             <p>Her skulle vi lære at lave vores første walkcycle dvs. At animationen skal gøre en handling. Jeg valgte at min mand skulle gå, og at damen skulle vinke. </p>
-            <div class="billede">
-                <br> <img src="fedefinn/walkcycle.png" alt="walkcycle"></div>
         </div>
-        <div class="column_content">
+        <div class="billede">
+            <br> <img src="fedefinn/walkcycle.png" alt="walkcycle"></div>
+    </section>
+    <section id="spritesheet">
+        <div class="sectionwrapper">
             <p>Vi var nu i gang med at lære at implementere vores walkcycle ind i både CSS og HTML, samt få det hele til at spille i Javascript. Derudover lærte vi også implementerer lyd i HTML og Javascript.
                 <br>Det tog mig lidt tid før jeg knækkede koden til Javascript, og jeg kunne derfor ikke følge med, da tidsfristen for denne opgave ikke var så stor.
                 <br> Set i bakspejlet, skulle jeg ikke have valgt så omfattende figurer til den første opgave. Jeg brugte lang tid på at tilrette mine spritesheet’s, da jeg ikke havde været så præcis som man skulle.
                 <br> <b>Nedenfor har jeg givet nogle eksempler på min HTML, CSS og Javascript:</b></p>
         </div>
-        <div class="column_content">
+    </section>
+    <section id="eksempler">
+        <div class="sectionwrapper">
             <p>Her ses min HTML, hvor jeg har lavet en container og et sprite id for hver af mine figurer. Inden i CSS’en har jeg så lavet forskellige Classe’s: </p>
-            <div class="billede">
-                <br> <img src="fedefinn/container_sprite.png" alt="html eksempel"></div>
         </div>
-        <div class="column_content">
+        <div class="billede">
+            <br> <img src="fedefinn/container_sprite.png" alt="html eksempel"></div>
+    </section>
+    <section id="eksempler2">
+        <div class="sectionwrapper">
             <p>Her ses min Javascript hvor jeg har startet en lyd, der hedder help. Help-lyden henter Javascripten fra min HTML: </p>
-            <div class="billede">
-                <br> <img src="fedefinn/lyd_js.png" alt="lyd eksempel"></div>
         </div>
-        <div class="column_content">
+        <div class="billede">
+            <br> <img src="fedefinn/lyd_js.png" alt="lyd eksempel"></div>
+    </section>
+    <section id="eksempler3">
+        <div class="sectionwrapper">
             <p>Her ses CSS’en, hvor jeg først har givet damen en position i containeren. Dernæst har jeg indsat hendes spritesheet i spriten, samt givet hendes den størrelse og position i scenen jeg ønskede. For at få damen til at vinke har jeg først og fremmest lavet et animation-name: dame_vinker_kf. Jeg vil have at animation forgår indtil jeg siger stop (infinite). For at finde damens vinke position i spritesheet’et har jeg lavet en keyframes: </p>
-            <div class="billede">
-                <br> <img src="fedefinn/damevinker_css.png" alt="lyd eksempel"></div>
         </div>
-    </div>
+        <div class="billede">
+            <br> <img src="fedefinn/damevinker_css.png" alt="lyd eksempel"></div>
+    </section>
     <div id="final">
         <div class="column_content">
             <p><b>Se animationen her:</b></p>

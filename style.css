@@ -10,7 +10,7 @@ body {
 
 P {
     font-family: 'Merriweather Sans', sans-serif;
-    font-size: 1.2em;
+    font-size: 1.4em;
 }
 
 h3 {
@@ -75,7 +75,10 @@ h2 {
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    height: auto;
+    margin: 0px;
+    padding: 0px;
+    height: 167vw;
+    background-size: 100%;
 }
 
 
@@ -137,6 +140,7 @@ screen and (min-resolution: 192dpi) and (min-width: 1025px) {
         background-image: url(image/desktop_retina.jpg);
         background-size: cover;
         height: 56vw;
+        */
     }
 }
 
@@ -263,21 +267,39 @@ li.dropdown {
 /*************VÆRKTØJ*******/
 
 #vaerktoj P {
-    margin-left: 150px;
+    padding-left: 6%;
+    width: 70%;
 }
 
 #vaerktoj .column1 img {
-    width: 40%;
+    width: 50%;
     height: 100%;
-    margin-left: 150px;
+    margin: auto;
+    padding-left: 6%;
 }
 
 .sectionwrapper {
-    width: 60%;
+    width: 50%;
     padding-bottom: 50px;
     padding-top: 50px;
-    margin-right: 150px;
-    margin-left: 150px;
+    margin-left: 6%;
+    text-align: left;
+}
+
+.billede img {
+    width: 50%;
+    margin-left: 6%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    -moz-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow: 3px 3px 30px rgba(0, 0, 0, .5);
+}
+
+.column {
+    width: 50%;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    margin-left: 6%;
     text-align: left;
 }
 
@@ -325,56 +347,7 @@ div.style a {
 }
 
 
-/*************ARTANDCRAFT2*******/
-
-#om img {
-    width: 90%;
-    margin: auto;
-    height: auto;
-    -moz-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
-    -webkit-box-shadow: 3px 3px 30px rgba(0, 0, 0, .5);
-}
-
-
-/*************STILETYLE*******/
-
-#stiletyle img {
-    width: 70%;
-    -moz-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
-    -webkit-box-shadow: 3px 3px 30px rgba(0, 0, 0, .5);
-}
-
-#stiletyle {
-    display: flex;
-    flex-wrap: wrap;
-    text-align: center;
-    padding-top: 50px;
-}
-
-
-/*************TEKST*******/
-
-#tekst .column {
-    margin-left: 150px;
-    margin-top: 50px;
-    padding-bottom: 50px;
-    margin-right: 50px;
-}
-
-#procesdok {
-    margin-left: 41px;
-    margin-top: 50px;
-}
-
-
 /*************SLUT*******/
-
-#procesdok {
-    margin-left: 150px;
-    margin-top: 50px;
-    padding-bottom: 50px;
-    margin-right: 50px;
-}
 
 #final img {
     width: 60%;
@@ -420,42 +393,6 @@ div.style a {
 
 /*************PRVIDEO2*******/
 
-#om2 .column {
-    padding-bottom: 50px;
-    width: 60%;
-    padding-top: 50px;
-    margin-left: 150px;
-    text-align: left;
-    margin-right: 150px;
-}
-
-#om2 {
-    text-align: center;
-}
-
-#opgave img {
-    width: 70%;
-    -moz-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
-    -webkit-box-shadow: 3px 3px 30px rgba(0, 0, 0, .5);
-}
-
-#opgave .sectionwrapper {
-    flex-basis: 400px;
-    flex-grow: 1;
-    padding-bottom: 50px;
-    padding-top: 50px;
-    margin-right: 150px;
-    margin-left: 150px;
-    text-align: left;
-}
-
-#opgave {
-    display: flex;
-    flex-wrap: wrap;
-    text-align: center;
-    padding-top: 50px;
-}
-
 #final2 iframe {
     width: 90%;
     flex-basis: 422px;
@@ -466,6 +403,8 @@ div.style a {
     margin-top: 100px;
     margin-bottom: 50px;
     text-align: center;
+    width: 100%;
+    height: auto;
 }
 
 
@@ -497,33 +436,6 @@ div.style a {
 }
 
 
-/*************REDESIGN2*******/
-
-#om4 P {
-    text-align: left;
-    width: 60%;
-    margin: auto;
-    margin-top: 12px;
-    padding-bottom: 50px;
-}
-
-#om4 img {
-    width: 60vw;
-}
-
-#om4 {
-    text-align: center;
-}
-
-#tekst4 .column {
-    text-align: left;
-    width: 60%;
-    margin: auto;
-    margin-top: 12px;
-    padding-bottom: 50px;
-}
-
-
 /*************CPHDOX*******/
 
 #cphdox p {
@@ -550,27 +462,6 @@ div.style a {
     font-family: 'Merriweather Sans', sans-serif;
     position: relative;
 }
-
-
-/*************CPHDOX2*******/
-
-#falster1 img {
-    width: 60%;
-    -moz-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
-    -webkit-box-shadow: 3px 3px 30px rgba(0, 0, 0, .5);
-}
-
-#falster1 {
-    text-align: center;
-}
-
-#falster1 p {
-    text-align: left;
-    width: 60%;
-    margin: auto;
-}
-
-#om3 p {}
 
 
 /*************ANIMATION*******/
@@ -609,15 +500,6 @@ div.style a {
 }
 
 
-/*************ANIMATION2*******/
-
-#opgaveseks img {
-    width: 70%;
-    -moz-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
-    -webkit-box-shadow: 3px 3px 30px rgba(0, 0, 0, .5);
-}
-
-
 /*************FEDEFINN*******/
 
 #fedefinn p {
@@ -647,27 +529,6 @@ div.style a {
 
 
 /*************FEDEFINN2*******/
-
-#finn P {
-    text-align: left;
-    width: 50%;
-    margin: auto;
-    margin-top: 12px;
-    padding-bottom: 50px;
-}
-
-#finn img {
-    width: 40%;
-    margin-bottom: 20px;
-    margin-top: 20px;
-    border-radius: 1%;
-    -moz-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
-    -webkit-box-shadow: 3px 3px 80px rgba(0, 0, 0, .5);
-}
-
-#finn {
-    text-align: center;
-}
 
 
 /*************KEAN*******/
@@ -699,18 +560,6 @@ div.style a {
 
 
 /*************KEAN2*******/
-
-#proto img {
-    width: 40%;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    -moz-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
-    -webkit-box-shadow: 3px 3px 30px rgba(0, 0, 0, .5);
-}
-
-#proto .billede {
-    margin-left: 150px;
-}
 
 #final7 img {
     width: 30vw;
@@ -752,12 +601,6 @@ div.style a {
     margin-top: 20px;
     font-family: 'Merriweather Sans', sans-serif;
     position: relative;
-}
-
-#opgave7 img {
-    width: 70%;
-    -moz-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
-    -webkit-box-shadow: 3px 3px 30px rgba(0, 0, 0, .5);
 }
 
 
